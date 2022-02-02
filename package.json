@@ -1,0 +1,26 @@
+{
+  "name": "node-react-pdf",
+  "version": "1.0.0",
+  "description": "testing if express if the problem in fencesee",
+  "main": "server.js",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "compile": "babel-node server.js"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.1.1",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "react": "^17.0.2",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4"
+  }
+}
