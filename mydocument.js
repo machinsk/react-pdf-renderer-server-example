@@ -27,3 +27,5 @@ const MyDocument = () => (
     </Page>
   </Document>
 );
+
+export default MyDocument
