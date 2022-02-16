@@ -8,13 +8,21 @@
     "@babel/core": "^7.17.0",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7"
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0",
+    "ttf-loader": "^1.0.2",
+    "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "compile": "babel-node server.js"
+    "compile": "babel-node server.js",
+    "babel-dist": "babel-node server-packed.js",
+    "node-dist": "node server-packed.js",
+    "webpack": "webpack"
   },
   "dependencies": {
     "@react-pdf/renderer": "^2.1.1",
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "webpack": "^5.69.0"
   }
 }
